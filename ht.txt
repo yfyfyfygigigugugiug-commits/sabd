@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>My E-commerce</title>
+
+<style>
+body {
+  font-family: Arial;
+  background: #904c4c;
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  background: #111111;
+  color: white;
+  padding: 15px;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  width: 250px;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+button {
+  background: green;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.section {
+  background: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: green;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+ <h1>مرحبا بكم</h1> 
+  <p>الدفع عند الاستلام 🚚</p>
+</header>
+
+<h2>🛒 المنتجات</h2>
+
+<div class="products">
+
+  <div class="card">
+    <img src="bnd.jpg">
+    <h3>Produit 1</h3>
+    <p>80 درهم</p>
+    <a href="https://wa.me/212721358141">
+      <button>شري دابا</button>
+    </a>
+  </div>
+
+  <div class="card">
+    <img src="tsts - Raccourci.lnk">
+    <h3>Produit 2</h3>
+    <p>120 درهم</p>
+    <a href="https://wa.me/212721358141">
+      <button>شري دابا</button>
+    </a>
+  </div>
+  <div class="card">
+    <img src="bnd.jpg">
+    <h3>Produit 1</h3>
+    <p>80 درهم</p>
+    <a href="https://wa.me/212721358141">
+      <button>شري دابا</button>
+    </a>
+  </div>
+
+  <div class="card">
+    <img src="bnd.jpg">
+    <h3>Produit 1</h3>
+    <p>80 درهم</p>
+    <a href="https://wa.me/212721358141">
+      <button>شري دابا</button>
+    </a>
+  </div>
+
+  <div class="card">
+    <img src="bnd.jpg">
+    <h3>Produit 1</h3>
+    <p>80 درهم</p>
+    <a href="https://wa.me/212721358141">
+      <button>شري دابا</button>
+    </a>
+  </div>
+
+  <div class="card">
+    <img src="bando.avif">
+    <h3>Produit 1</h3>
+    <p>80 درهم</p>
+    <a href="https://wa.me/212721358141">
+      <button>شري دابا</button>
+    </a>
+  </div>
+
+</div>
+
+<div class="section">
+  <h2>⭐ علاش تشري من عندنا؟</h2>
+  <p>✔ توصيل سريع</p>
+  <p>✔ ثمن مناسب</p>
+  <p>✔ الدفع عند الاستلام</p>
+</div>
+
+
+
+
+<a class="whatsapp" href="https://wa.me/212600000000">📞</a>
+
+</body>
+</html>
+
